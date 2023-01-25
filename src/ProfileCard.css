@@ -36,11 +36,12 @@
 
 .profileImage {
   width: 100%;
-  height: 100%;
+  min-height: 100%;
   transition: ease 0.5s;
   border-radius: 10px;
   margin-bottom: 20px;
   display: block;
+  z-index: 5;
 }
 
 .icons_name_job {
@@ -101,6 +102,7 @@
   border-radius: 10px;
   bottom: 0;
   transform: scale(0);
+  cursor: pointer;
 }
 
 .profile_Card:hover .bestFriend1,
@@ -115,18 +117,19 @@
   top: 5px;
   left: -30px;
   z-index: 10;
-  transition: 1.7s 0.2s ease;
+  transition: 1.2s 0.2s ease;
 }
 .bestFriend3 {
   bottom: 50px;
   z-index: 10;
   right: -30px;
-  transition: 1.3s 0.5s ease;
+  transition: 1s 0.3s ease;
 }
 svg.badge {
   position: absolute;
   top: 2px;
-  right: 5px;
+  right: 10px;
   opacity: 0;
   transition: ease 0.5s;
+  font-size: 20px;
 }

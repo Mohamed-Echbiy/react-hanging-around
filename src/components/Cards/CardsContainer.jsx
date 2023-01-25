@@ -13,18 +13,30 @@ function CardsContainer() {
         name={"alejandro"}
         job="watching TV"
         hasBadge={true}
+        bestFriend1="./cat1.jpg"
+        bestFriend2="./human.jpg"
       />
-      <ProfileCard img={profile2} name="marin tulard" job="sleeping" />
+      <ProfileCard
+        img={profile2}
+        name="marin tulard"
+        job="sleeping"
+        bestFriend1="./lama.jpg"
+        bestFriend2="./cat2.jpg"
+      />
       <ProfileCard
         img={profile3}
         name="nadine burzler"
         job="twisting his head"
+        bestFriend1={"./hawk.jpg"}
+        bestFriend2="./cat3.jpg"
       />
       <ProfileCard
         img={profile4}
         name="zhengato-tang"
         job="swimming"
         hasBadge={true}
+        bestFriend1="./shark.jpg"
+        bestFriend2="./sneak.jpg"
       />
     </div>
   );
